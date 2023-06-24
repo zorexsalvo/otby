@@ -19,7 +19,7 @@ export default function NavBar() {
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto">
           <Link href="/" className="flex items-center font-display text-2xl">
             <Image
-              src="/otby/logo.png"
+              src="/logo.png"
               alt="OTC logo"
               width="30"
               height="30"
