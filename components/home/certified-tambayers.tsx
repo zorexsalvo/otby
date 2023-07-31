@@ -34,7 +34,7 @@ export default function CertifiedTambayers() {
     {
       name: "Riri",
       image:
-        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609367799009321/JGURBANO.jpg"
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609367799009321/JGURBANO.jpg",
     },
     {
       name: "Paulo Plays",
@@ -125,13 +125,13 @@ export default function CertifiedTambayers() {
         {certifiedTambayers.map((tambay) => (
           <a
             key={tambay.name}
-            href="#"
             className="m-2"
             onClick={() => {
               setShowModal(true);
               setName(tambay.name);
               setImage(tambay.image);
             }}
+            style={{ cursor: "pointer" }}
           >
             <Image
               src={tambay.image}
