@@ -125,6 +125,7 @@ export default function CertifiedTambayers() {
         {certifiedTambayers.map((tambay) => (
           <a
             key={tambay.name}
+            href="#"
             className="m-2"
             onClick={() => {
               setShowModal(true);
