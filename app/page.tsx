@@ -93,6 +93,16 @@ export default async function Home() {
       image:
         "https://cdn.discordapp.com/attachments/1130558223796154398/1130559866600181811/ZADGR.jpg",
     },
+    {
+      name: "Bubbles",
+      image:
+        "https://cdn.discordapp.com/attachments/1130558223796154398/1135567199474569266/JOANNA_MAE.jpg",
+    },
+    {
+      name: "Jiji",
+      image:
+        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559707602505788/JIJI.jpg",
+    },
   ];
   return (
     <>
