@@ -122,7 +122,7 @@ export default async function Home() {
         >
           <Balancer>Certified Tambayers</Balancer>
         </h4>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center">
           {certifiedTambayers.map((tambay) => (
             <div key={tambay.name} className="m-2">
               <Image
