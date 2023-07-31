@@ -6,10 +6,8 @@ import Balancer from "react-wrap-balancer";
 import Modal from "@/components/shared/modal";
 
 export default function CertifiedTambayers() {
-  const [member, setMember] = useState({
-    name: "",
-    image: "",
-  });
+  const [name, setName] = useState("");
+  const [image, setImage] = useState("");
   const [showModal, setShowModal] = useState(false);
 
   const certifiedTambayers = [
@@ -130,7 +128,8 @@ export default function CertifiedTambayers() {
             className="m-2"
             onClick={() => {
               setShowModal(true);
-              setMember(tambay);
+              setName(tambay.name);
+              setImage(tambay.image);
             }}
           >
             <Image
@@ -148,8 +147,8 @@ export default function CertifiedTambayers() {
           <div className="flex flex-col items-center justify-center space-y-3 bg-white px-4 py-6 pt-8 text-center md:px-16">
             <a href="#"></a>
             <Image
-              src={member.image}
-              alt={member.name}
+              src={image}
+              alt={name}
               width="400"
               height="400"
               className="mr-2 rounded-sm"
