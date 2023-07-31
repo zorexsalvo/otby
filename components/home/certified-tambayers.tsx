@@ -14,102 +14,102 @@ export default function CertifiedTambayers() {
     {
       name: "Sheriff",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559855573356744/sheriff.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609436149383178/sheriff.jpg",
     },
     {
       name: "Ara",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559708835627019/GLADYS.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609367006285895/GLADYS.jpg",
     },
     {
       name: "Gnew",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559709804515369/GNEW.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609367262150946/GNEW.jpg",
     },
     {
       name: "Chixy",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559710647550003/JANE.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609367526387812/JANE.jpg",
     },
     {
       name: "Riri",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559711540953098/JGURBANO.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609367799009321/JGURBANO.jpg"
     },
     {
       name: "Paulo Plays",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559823461752973/PAULO.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135610426923696191/PAULO.jpg",
     },
     {
       name: "Mushi",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559824166400040/JOEL.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609368608522332/JOEL.jpg",
     },
     {
       name: "Yami",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559825022025881/JOSE.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609368855982090/JOSE.jpg",
     },
     {
       name: "Kanchoy",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559825793785919/KANCHOY.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609369141199018/KANCHOY.jpg",
     },
     {
       name: "Neku",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559826527793192/NEKU.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609369409630339/NEKU.jpg",
     },
     {
       name: "Phia",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559850737324174/SOPHIA.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609436409434223/SOPHIA.jpg",
     },
     {
       name: "Pitchy",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559852104654888/PITCHY.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609435411185664/PITCHY.jpg",
     },
     {
       name: "Rizza",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559853170020382/RIZZA.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609435683819591/RIZZA.jpg",
     },
     {
       name: "Ryan",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559854436696145/RYANM.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609435918708886/RYANM.jpg",
     },
     {
       name: "Jojo",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559863798370304/ZOREX.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609437453824141/ZOREX.jpg",
     },
     {
       name: "Vicente",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559864788234280/VICENTE.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609436627546133/VICENTE.jpg",
     },
     {
       name: "Kain Mo",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559865685807114/WILMER.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609436929523834/WILMER.jpg",
     },
     {
       name: "Jenella",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559866600181811/ZADGR.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609437176991824/ZADGR.jpg",
     },
     {
       name: "Bubbles",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1135567199474569266/JOANNA_MAE.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609368356851783/JOANNA_MAE.jpg",
     },
     {
       name: "Jiji",
       image:
-        "https://cdn.discordapp.com/attachments/1130558223796154398/1130559707602505788/JIJI.jpg",
+        "https://cdn.discordapp.com/attachments/1135609067595894835/1135609368050679838/JIJI.jpg",
     },
   ];
 
@@ -137,7 +137,7 @@ export default function CertifiedTambayers() {
               alt={tambay.name}
               height={200}
               width={100}
-              quality={40}
+              quality={100}
             />
           </a>
         ))}
@@ -153,6 +153,7 @@ export default function CertifiedTambayers() {
               height="400"
               className="mr-2 rounded-sm"
               loading="eager"
+              quality={100}
             ></Image>
           </div>
         </div>
