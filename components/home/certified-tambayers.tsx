@@ -4,13 +4,12 @@ import { useState, Suspense } from "react";
 import Image from "next/image";
 import Balancer from "react-wrap-balancer";
 import Modal from "@/components/shared/modal";
+import data from "./data";
 
 export default function CertifiedTambayers() {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [showModal, setShowModal] = useState(false);
-
-  const certifiedTambayers = JSON.parse(process.env.NEXT_PUBLIC_DATA);
 
   return (
     <div className="m:px-0 z-10 w-full max-w-4xl pt-24 xl:px-20">
@@ -21,7 +20,7 @@ export default function CertifiedTambayers() {
         <Balancer>Certified Tambayers</Balancer>
       </h4>
       <div className="flex flex-wrap justify-center">
-        {certifiedTambayers.map((tambay) => (
+        {data.map((tambay) => (
           <a
             key={tambay.name}
             className="m-2"
