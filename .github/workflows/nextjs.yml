@@ -24,6 +24,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  NEXT_PUBLIC_DATA: ${{ vars.NEXT_PUBLIC_DATA }}
+
 jobs:
   # Build job
   build:
@@ -73,10 +76,10 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      - name: Read environment variables
+        run: echo "$NEXT_PUBLIC_DATA" >> $GITHUB_OUTPUT
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-        env:
-          NEXT_PUBLIC_DATA: ${{ vars.NEXT_PUBLIC_DATA }}
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
