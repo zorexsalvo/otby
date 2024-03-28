@@ -36,7 +36,6 @@ export default function CertifiedTambayers() {
               alt={tambay.name}
               height={200}
               width={100}
-              quality={100}
             />
           </a>
         ))}
