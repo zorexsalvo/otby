@@ -14,7 +14,7 @@ export default function CertifiedTambayers() {
   return (
     <div className="m:px-0 z-10 w-full max-w-4xl pt-24 xl:px-20">
       <h4
-        className="bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-4xl md:leading-[5rem]"
+        className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-4xl md:leading-[5rem]"
         style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
       >
         <Balancer>Certified Tambayers</Balancer>
