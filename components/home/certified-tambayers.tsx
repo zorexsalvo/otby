@@ -55,7 +55,6 @@ export default function CertifiedTambayers() {
               height="400"
               className="mr-2 rounded-sm"
               loading="eager"
-              quality={100}
             ></Image>
           </div>
         </div>
