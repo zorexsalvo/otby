@@ -7,6 +7,11 @@ import useScroll from "@/lib/hooks/use-scroll";
 export default function NavBar() {
   const scrolled = useScroll(50);
 
+  const changeTheme = () => {
+    const root = document.getElementById("root");
+    root.classList.add("bg-black");
+  };
+
   return (
     <>
       <div
@@ -26,6 +31,15 @@ export default function NavBar() {
               className="mr-2 rounded-sm"
             ></Image>
           </Link>
+            <button onClick={changeTheme}>
+              <Image
+                src="/icons/dark.svg"
+                alt="Dark mode"
+                width="20"
+                height="20"
+                className="mr-2 rounded-sm"
+              ></Image>
+            </button>
         </div>
       </div>
     </>

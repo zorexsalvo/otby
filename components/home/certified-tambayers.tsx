@@ -17,6 +17,20 @@ export default function CertifiedTambayers() {
         className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-4xl md:leading-[5rem]"
         style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
       >
+      <Balancer>Honorable Tambayer</Balancer>
+      </h4>
+        <div className="flex justify-center">
+        <Image
+          src="/avatars/armina.png"
+          alt="Armina"
+          height={200}
+          width={100}
+        />
+        </div>
+      <h4
+        className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-4xl md:leading-[5rem]"
+        style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
+      >
         <Balancer>Certified Tambayers</Balancer>
       </h4>
       <div className="flex flex-wrap justify-center">
