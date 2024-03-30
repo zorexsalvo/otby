@@ -12,7 +12,7 @@ export default function NavBar() {
     if (root) {
       root.classList.toggle("bg-black", !root.classList.contains("bg-black"));
 
-      const themeButton: { property: HTMLElement | null } = document.getElementById("theme-btn");
+      const themeButton = document.getElementById("theme-btn") as HTMLImageElement;
       if (themeButton) {
         if (themeButton.classList.contains("dark")) {
           themeButton.src = "/icons/sun.svg";
