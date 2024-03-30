@@ -10,7 +10,11 @@ export default function NavBar() {
   const changeTheme = () => {
     const root = document.getElementById("root");
     if (root) {
-      root.classList.add("bg-black");
+      if (root.classList.contains("bg-black")) {
+        root.classList.remove("bg-black");
+      } else {
+        root.classList.add("bg-black");
+      }
     }
   };
 
