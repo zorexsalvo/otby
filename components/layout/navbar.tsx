@@ -10,10 +10,19 @@ export default function NavBar() {
   const changeTheme = () => {
     const root = document.getElementById("root");
     if (root) {
-      if (root.classList.contains("bg-black")) {
-        root.classList.remove("bg-black");
-      } else {
-        root.classList.add("bg-black");
+      root.classList.toggle("bg-black", !root.classList.contains("bg-black"));
+
+      const themeButton = document.getElementById("theme-btn");
+      if (themeButton) {
+        console.log(themeButton);
+
+        if (themeButton.classList.contains("dark")) {
+          themeButton.src = "/icons/sun.svg";
+          themeButton.classList.remove("dark");
+        } else {
+          themeButton.src = "/icons/dark.svg";
+          themeButton.classList.add("dark");
+        }
       }
     }
   };
@@ -37,15 +46,16 @@ export default function NavBar() {
               className="mr-2 rounded-sm"
             ></Image>
           </Link>
-            <button onClick={changeTheme}>
-              <Image
-                src="/icons/dark.svg"
-                alt="Dark mode"
-                width="20"
-                height="20"
-                className="mr-2 rounded-sm"
-              ></Image>
-            </button>
+          <button onClick={changeTheme}>
+            <Image
+              id="theme-btn"
+              src="/icons/dark.svg"
+              alt="Dark mode"
+              width="20"
+              height="20"
+              className="mr-2 rounded-sm dark"
+            ></Image>
+          </button>
         </div>
       </div>
     </>
